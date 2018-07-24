@@ -14,7 +14,8 @@ def first_challenge
   }
  contacts.each do |key,value|
    value.each do |k,v|
-     
+     if k==:favorite_icecream_flavors
+       
  
 
 
