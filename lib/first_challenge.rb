@@ -12,7 +12,9 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-
+ contacts.each do |key,value|
+   value.each do |k,v|
+     
  
 
 
